@@ -1,4 +1,4 @@
-package com.company;
+package com.vartex.company;
 
 /**
  * @author Igor Hnes on 10/17/17.

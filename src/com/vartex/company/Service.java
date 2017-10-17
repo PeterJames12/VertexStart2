@@ -1,4 +1,4 @@
-package com.company;
+package com.vartex.company;
 
 public class Service {
 
