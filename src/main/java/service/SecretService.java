@@ -5,19 +5,27 @@ package service;
  */
 public class SecretService {
 
-    public void doSomething() {
-
+    public void p1() {
+        System.out.println("Hello");
     }
 
-    public void say() {
-
+    public void p2() {
+        int a = 1;
+        int b = 2;
+        System.out.println(a+b);
     }
 
-    private void run() {
-
+    public int p3() {
+        return 12;
     }
 
-    private void go() {
-
+    public String p4() {
+        return "Ку Ку";
     }
+
+    public void p5() {
+        System.out.println("Еще один бесполезный метод");
+    }
+
+
 }
