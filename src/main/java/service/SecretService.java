@@ -1,23 +1,38 @@
 package service;
 
+import java.util.Scanner;
+
 /**
  * @author Igor Hnes on 10/19/17.
  */
 public class SecretService {
 
-    public void doSomething() {
-
+    public void swim() {
+        System.out.println("I swim 100m");
     }
 
-    public void say() {
-
+    public void training() {
+        System.out.println("I training 1 hours");
     }
 
-    private void run() {
-
+    public int myAge() {
+        Scanner scanner = new Scanner(System.in);
+        int age = scanner.nextInt();
+        scanner.close();
+        return age;
     }
 
-    private void go() {
+    public String yourName() {
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        scanner.close();
+        return name;
+    }
 
+    public int yourHight() {
+        Scanner scanner = new Scanner(System.in);
+        int h = scanner.nextInt();
+        scanner.close();
+        return h;
     }
 }
