@@ -20,4 +20,7 @@ public class SecretService {
         int a = 123;
         return a;
     }
+    private static void help(){
+        System.out.println("help");
+    }
 }
