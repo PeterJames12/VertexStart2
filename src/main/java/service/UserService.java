@@ -1,4 +1,4 @@
-package vertex.service;
+package service;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;

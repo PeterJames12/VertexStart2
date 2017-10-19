@@ -1,4 +1,4 @@
-package vertex.service;
+package service;
 
 /**
  * @author Igor Hnes on 10/19/17.

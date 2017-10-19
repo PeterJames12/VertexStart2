@@ -1,4 +1,4 @@
-package vertex.model;
+package model;
 
 /**
  * @author Igor Hnes on 10/19/17.
