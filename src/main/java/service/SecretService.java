@@ -5,19 +5,7 @@ package service;
  */
 public class SecretService {
 
-    public void doSomething() {
-
-    }
-
-    public void say() {
-
-    }
-
-    private void run() {
-
-    }
-
-    private void go() {
-
+    private void sayHello() {
+        System.out.println("Hello");
     }
 }
