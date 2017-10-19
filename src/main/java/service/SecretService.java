@@ -5,19 +5,19 @@ package service;
  */
 public class SecretService {
 
-    public void doSomething() {
-
+    private static void show(){
+        int a = 6;
+        int b = 8;
+        int c = a+b;
+        System.out.println(c);
     }
 
-    public void say() {
-
+    private static void showTwo(){
+        System.out.println("Hello");
     }
 
-    private void run() {
-
-    }
-
-    private void go() {
-
+    private static int showDisplay(){
+        int a = 123;
+        return a;
     }
 }
