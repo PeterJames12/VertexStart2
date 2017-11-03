@@ -19,7 +19,6 @@ public class Work9 {
             map.put("Map" + i, i + 10);
         }
 
-
         for (Object elem : map.keySet()) {
             if (elem instanceof Integer) {
                 list.add((Integer) elem);

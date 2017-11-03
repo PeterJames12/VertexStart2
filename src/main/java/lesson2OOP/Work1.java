@@ -14,8 +14,7 @@ public class Work1 {
         }
         Iterator<Integer> iter = list.iterator();
         while (iter.hasNext()) {
-            int num = iter.next();
-            if (num % 2 != 0) {
+            if (iter.next() % 2 != 0) {
                 iter.remove();
             }
         }
