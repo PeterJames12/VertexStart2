@@ -27,12 +27,8 @@ public class PrivateShop {
         System.out.println(list.get(1));
         System.out.println(goodsList.get(1));
 
+
         System.out.println(showMyOrder());
-        System.out.println(goodsList.get(1).getValue());
-        goodsList.get(1).setValue(goodsList.get(1).getValue() - 1);
-        System.out.println(goodsList.get(1).getValue());
-
-
 
     }
 
@@ -46,6 +42,10 @@ public class PrivateShop {
                 }
             }
         }
+    }
+
+    private static void changeCount() {
+
     }
 
     private static String showMyOrder() {
