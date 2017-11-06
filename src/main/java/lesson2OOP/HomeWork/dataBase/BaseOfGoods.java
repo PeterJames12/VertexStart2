@@ -9,6 +9,7 @@ public class BaseOfGoods {
         List<GoodsChar> goodsChars = new LinkedList<>();
         goodsChars.add(new GoodsChar());
         goodsChars.add(new GoodsChar("TV", "Samsung", 5, 1_000));
+        goodsChars.add(new GoodsChar("Microfone", "Siemens", 12, 5_000));
         return goodsChars;
     }
 
