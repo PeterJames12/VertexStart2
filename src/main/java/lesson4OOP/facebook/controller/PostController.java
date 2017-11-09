@@ -12,8 +12,7 @@ public class PostController {
         PostService postService = new PostService();
         List<Post> allPost = postService.getAllPost();
         for (Post elem : allPost) {
-            System.out.println(elem.getTitle());
-            System.out.println(elem.getDiscription());
+            System.out.println(elem.toString());
         }
     }
 }

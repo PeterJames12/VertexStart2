@@ -7,7 +7,6 @@ import java.util.List;
 
 public class PostService {
 
-
     public List<Post> getAllPost() {
         PostDao postDao = new PostDao();
         return postDao.getAllPost();

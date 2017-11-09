@@ -20,4 +20,13 @@ public class Post {
     public void setDiscription(String discription) {
         this.discription = discription;
     }
+
+    @Override
+    public String toString() {
+        return "Title: "
+                + getTitle()
+                + "\n"
+                + "Discription: "
+                + getDiscription();
+    }
 }

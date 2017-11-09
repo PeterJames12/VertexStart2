@@ -7,7 +7,6 @@ import java.util.List;
 
 public class PostDao {
 
-
     public List<Post> getAllPost() {
         return Database.getAllPost();
     }
